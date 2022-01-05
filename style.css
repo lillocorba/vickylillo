@@ -202,6 +202,11 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+
+    .seccion-portada {
+        height: 100vh;
+    }
+
     .seccion-portada h1 {
         font-family: var(--fuente-serif);
         color: white;
@@ -213,7 +218,7 @@ body {
     .seccion-portada h3 {
         font-family: var(--fuente-sans-serif);
         color: white;
-        font-size: 20px;
+        font-size: 22px;
         font-weight: normal;
     }
 
