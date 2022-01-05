@@ -1,0 +1,381 @@
+:root {
+    --fuente-serif: 'Merriweather', serif;
+    --fuente-sans-serif: 'Source Sans Pro',
+        sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.seccion-portada {
+    background-image: url(imagenes/portada-principal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-portada h1 {
+    font-family: var(--fuente-serif);
+    color: white;
+    font-size: 64px;
+    letter-spacing: 5px;
+    margin-bottom: -15px;
+}
+
+.seccion-portada h3 {
+    font-family: var(--fuente-sans-serif);
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.seccion-fecha {
+    padding: 75px 0px 75px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-fecha h2 {
+    font-family: var(--fuente-serif);
+    font-size: 46px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.seccion-fecha h4 {
+    font-family: var(--fuente-sans-serif);
+    font-size: 32px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.seccion-map {
+    background-image: url(imagenes/mapa-ceballos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: auto;
+}
+
+.mapa {
+    display: none;
+}
+
+.seccion-sabado {
+    padding: 75px 0px 75px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-sabado h2 {
+    font-family: var(--fuente-serif);
+    font-size: 46px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.seccion-sabado p {
+    font-family: var(--fuente-sans-serif);
+    font-size: 24px;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.imagenes-sabado {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    width: 400px;
+    height: auto;
+}
+
+.img-asado {
+    margin: 0px 75px;
+}
+
+.seccion-vestimenta {
+    padding: 75px 0px 75px 0px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-vestimenta h2 {
+    font-family: var(--fuente-serif);
+    font-size: 46px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.seccion-vestimenta h4 {
+    font-family: var(--fuente-sans-serif);
+    font-size: 24px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.imagenes-vestimenta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img-outfit {
+    height: 600px;
+    width: auto;
+}
+
+.img-outfit-mujer {
+    margin-right: 20px;
+}
+
+.img-outfit-hombre {
+    margin-left: 20px;
+}
+
+.seccion-asistencia {
+    padding: 75px 0px 100px 0px;
+    background-color: rgb(245, 245, 245);
+}
+
+.seccion-asistencia h2 {
+    font-family: var(--fuente-serif);
+    font-size: 46px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.seccion-asistencia h4 {
+    font-family: var(--fuente-sans-serif);
+    font-size: 24px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.seccion-asistencia a {
+    background-color: transparent;
+    border: solid 1px black;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    font-family: var(--fuente-sans-serif);
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.seccion-asistencia a:hover {
+    background-color: black;
+    color: white;
+}
+
+.contenedor-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .seccion-portada h1 {
+        font-family: var(--fuente-serif);
+        color: white;
+        font-size: 36px;
+        letter-spacing: 5px;
+        margin-bottom: -15px;
+    }
+
+    .seccion-portada h3 {
+        font-family: var(--fuente-sans-serif);
+        color: white;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .seccion-fecha {
+        padding: 75px 20px 75px 20px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seccion-fecha h2 {
+        font-family: var(--fuente-serif);
+        font-size: 36px;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .seccion-fecha h4 {
+        font-family: var(--fuente-sans-serif);
+        font-size: 24px;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .seccion-map {
+        background: none;
+        height: auto;
+        width: auto;
+    }
+
+    .mapa {
+        display: block;
+    }
+
+    .seccion-vestimenta {
+        padding: 75px 20px 75px 20px;
+        background-color: rgb(245, 245, 245);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seccion-vestimenta h2 {
+        font-family: var(--fuente-serif);
+        font-size: 36px;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .seccion-vestimenta h4 {
+        font-family: var(--fuente-sans-serif);
+        font-size: 22px;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .imagenes-vestimenta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 20px;
+    }
+
+    .img-outfit {
+        height: 400px;
+        width: auto;
+    }
+
+    .img-outfit-mujer {
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+
+    .img-outfit-hombre {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .seccion-sabado {
+        padding: 75px 20px 75px 20px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seccion-sabado h2 {
+        font-family: var(--fuente-serif);
+        font-size: 36px;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .seccion-sabado p {
+        font-family: var(--fuente-sans-serif);
+        font-size: 20px;
+        text-align: center;
+        font-weight: lighter;
+        margin-bottom: 50px;
+        line-height: 2;
+    }
+
+    .imagenes-sabado {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen {
+        width: 300px;
+        height: auto;
+    }
+
+    .img-asado {
+        margin: 30px 0px;
+    }
+
+    .seccion-asistencia {
+        padding: 75px 20px 100px 20px;
+        background-color: rgb(245, 245, 245);
+    }
+
+    .seccion-asistencia h2 {
+        font-family: var(--fuente-serif);
+        font-size: 36px;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .seccion-asistencia h4 {
+        font-family: var(--fuente-sans-serif);
+        font-size: 18px;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .seccion-asistencia a {
+        background-color: transparent;
+        border: solid 1px black;
+        text-align: center;
+        padding: 10px 20px 10px 20px;
+        font-family: var(--fuente-sans-serif);
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+    .seccion-asistencia a:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .contenedor-boton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+}
