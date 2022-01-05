@@ -12,20 +12,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="seccion-portada">
-        <h1>Vicky & Lillo</h1>
-        <h3>¿La rompemos?</h3>
+        <h1 data-aos="fade-up" data-aos-duration="1000">Vicky & Lillo</h1>
+        <h3 data-aos="fade-up" data-aos-duration="1000">¿La rompemos?</h3>
     </div>
     <div class="seccion-fecha">
-        <div class="fecha">
+        <div class="fecha" data-aos="fade-up" data-aos-duration="1000">
             <h2>¿Cuando?</h2>
             <h4>15.04.22 - 13:00 hs</h4>
         </div>
-        <div class="lugar">
+        <div class="lugar" data-aos="fade-up" data-aos-duration="1000">
             <h2>¿Donde?</h2>
             <h4>Estancia San Antonio, Ceballos, La Pampa.</h4>
         </div>
@@ -36,32 +37,42 @@
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="mapa"></iframe>
     </div>
     <div class="seccion-vestimenta">
-        <h2>Código de vestimenta</h2>
-        <h4>Sería algo así 👇🏻</h4>
+        <h2 data-aos="fade-up" data-aos-duration="1000">Código de vestimenta</h2>
+        <h4 data-aos="fade-up" data-aos-duration="1000">Sería algo así 👇🏻</h4>
         <div class="imagenes-vestimenta">
-            <img class="img-outfit img-outfit-mujer" src="imagenes/outfit-mujer.jpg" alt=""> <!-- Imagen Mujer-->
-            <img class="img-outfit img-outfit-hombre" src="imagenes/outfit-hombre.jpg" alt=""> <!-- Imagen Hombre-->
+            <img class="img-outfit img-outfit-mujer" src="imagenes/outfit-mujer.jpg" alt="" data-aos="fade-up"
+                data-aos-duration="1000"> <!-- Imagen Mujer-->
+            <img class="img-outfit img-outfit-hombre" src="imagenes/outfit-hombre.jpg" alt="" data-aos="fade-up"
+                data-aos-duration="1000"> <!-- Imagen Hombre-->
         </div>
     </div>
     <div class="seccion-sabado">
-        <h2>¿Y el sábado?</h2>
-        <p>Reconstruímos lo que pasó el día anterior todos juntos. <span class="salto-linea"> Ah, y un poco de esto 👇🏻
+        <h2 data-aos="fade-up" data-aos-duration="1000">¿Y el sábado?</h2>
+        <p data-aos="fade-up" data-aos-duration="1000">Reconstruímos lo que pasó el día anterior todos juntos. <span
+                class="salto-linea"> Ah, y un poco de esto 👇🏻
             </span></p>
         <div class="imagenes-sabado">
-            <img class="imagen img-gente" src="imagenes/img-gente.png" alt=""> <!-- Imagen Alcohol-->
-            <img class="imagen img-asado" src="imagenes/img-asado.png" alt=""> <!-- Imagen Asado-->
-            <img class="imagen img-cervezas" src="imagenes/img-cervezas.png" alt=""> <!-- Imagen Juegos-->
+            <img class="imagen img-gente" src="imagenes/img-gente.png" alt="" data-aos="fade-up"
+                data-aos-duration="1000"> <!-- Imagen Alcohol-->
+            <img class="imagen img-asado" src="imagenes/img-asado.png" alt="" data-aos="fade-up"
+                data-aos-duration="1000"> <!-- Imagen Asado-->
+            <img class="imagen img-cervezas" src="imagenes/img-cervezas.png" alt="" data-aos="fade-up"
+                data-aos-duration="1000"> <!-- Imagen Juegos-->
         </div>
     </div>
     <div class="seccion-asistencia">
-        <h2>¡Confirmanos asistencia!</h2>
-        <h4>PD: Sin presión 🔫, queremos que estes 😎</h4>
-        <div class="contenedor-boton">
+        <h2 data-aos="fade-up" data-aos-duration="1000">¡Confirmanos asistencia!</h2>
+        <h4 data-aos="fade-up" data-aos-duration="1000">PD: Sin presión 🔫, queremos que estes 😎</h4>
+        <div class="contenedor-boton" data-aos="fade-up" data-aos-duration="1000">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScgUwzH0tQKdcpoW0F6EkYM4KTTJqvXP0A8Xkshp2tbxjcftg/viewform"
                 target="_blank">Confirmar
                 asistencia</a>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
