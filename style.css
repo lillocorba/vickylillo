@@ -142,7 +142,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 50px;
 }
 
@@ -321,6 +321,10 @@ body {
         font-weight: lighter;
         margin-bottom: 50px;
         line-height: 2;
+    }
+
+    .salto-linea {
+        display: block;
     }
 
     .imagenes-sabado {
