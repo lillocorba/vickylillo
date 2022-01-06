@@ -281,6 +281,7 @@ body {
 @media screen and (max-width: 500px) {
 
     .seccion-portada {
+        background-image: url(imagenes/portada-movil.jpg);
         height: 95vh;
     }
 
