@@ -108,7 +108,7 @@ body {
 }
 
 .imagen {
-    width: 400px;
+    width: 350px;
     height: auto;
 }
 
@@ -159,9 +159,86 @@ body {
     margin-left: 20px;
 }
 
-.seccion-asistencia {
+.seccion-hoteles {
     padding: 75px 0px 100px 0px;
     background-color: rgb(245, 245, 245);
+}
+
+.seccion-hoteles h2 {
+    font-family: var(--fuente-serif);
+    font-size: 46px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.seccion-hoteles h4 {
+    font-family: var(--fuente-sans-serif);
+    font-size: 24px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.seccion-hoteles h5 {
+    font-family: var(--fuente-sans-serif);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.seccion-hoteles p {
+    font-family: var(--fuente-sans-serif);
+    font-size: 16px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.hoteles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.hotel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-hotel {
+    width: 300px;
+    height: auto;
+}
+
+.img-hotel-medio {
+    margin: 0px 75px;
+}
+
+.btn-ver-hotel {
+    background-color: transparent;
+    border: solid 1px black;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    font-family: var(--fuente-sans-serif);
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btn-ver-hotel:hover {
+    background-color: black;
+    color: white;
+}
+
+.seccion-asistencia {
+    padding: 75px 0px 100px 0px;
+    background-color: white;
 }
 
 .seccion-asistencia h2 {
@@ -345,9 +422,89 @@ body {
         margin: 30px 0px;
     }
 
-    .seccion-asistencia {
+    .seccion-hoteles {
         padding: 75px 20px 100px 20px;
         background-color: rgb(245, 245, 245);
+    }
+
+    .seccion-hoteles h2 {
+        font-family: var(--fuente-serif);
+        font-size: 46px;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .seccion-hoteles h4 {
+        font-family: var(--fuente-sans-serif);
+        font-size: 20px;
+        text-align: center;
+        font-weight: lighter;
+        line-height: 2;
+    }
+
+    .seccion-hoteles h5 {
+        font-family: var(--fuente-sans-serif);
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+
+    .seccion-hoteles p {
+        font-family: var(--fuente-sans-serif);
+        font-size: 16px;
+        text-align: center;
+        font-weight: lighter;
+        margin-top: 0px;
+    }
+
+    .hoteles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 75px;
+    }
+
+    .hotel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 75px;
+    }
+
+    .img-hotel {
+        width: 300px;
+        height: auto;
+    }
+
+    .img-hotel-medio {
+        margin: 0px 75px;
+    }
+
+    .btn-ver-hotel {
+        background-color: transparent;
+        border: solid 1px black;
+        text-align: center;
+        padding: 10px 20px 10px 20px;
+        font-family: var(--fuente-sans-serif);
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .btn-ver-hotel:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .seccion-asistencia {
+        padding: 75px 20px 100px 20px;
+        background-color: white;
     }
 
     .seccion-asistencia h2 {
